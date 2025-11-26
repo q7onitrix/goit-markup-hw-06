@@ -1,95 +1,6 @@
 
-
-/* header */
-
-
-
-    
-
-
-
-.header-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-
-.address-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.header-logo {
-    margin-right: 76px;
-}
-
-
-
-
-
-
-
-
-.header-address {
-    font-style: normal;
-    margin-left: auto;
-}
-
-
-
 /* HERO-SECTION */
 
-.section-hero {
-    background: #2e2f42;
-    padding: 188px 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    background-image: 
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero/hero-image.jpg);
-}
-
-.hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-    max-width: 496px;
-    margin-bottom: 48px;
-}
-
-.hero-button {
-    display: block;
-    background-color: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
-    margin: 0 auto;
-    border: none;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-button:focus,
-.hero-button:hover {
-    background-color: #404bbf;
-}
 
 /* section-benefits */
 
@@ -537,12 +448,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border: none;
 }
 
-.close-modal-svg {
+.close-button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-modal:hover .close-modal-svg,
-.close-modal:focus .close-modal-svg {
+.close-modal:hover .close-button,
+.close-modal:focus .close-button {
     fill: #ffffff   
 }
 
