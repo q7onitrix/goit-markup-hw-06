@@ -1,70 +1,6 @@
 
-/* HERO-SECTION */
-
-
-/* section-benefits */
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.benefits-list {
-    display: flex;
-    gap: 24px;
-}
-
-.section-benefits {
-    padding: 120px 0;
-}
-
-.benefits-list-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-
-.benefits-list-item {
-    width: calc((100% - 72px) / 4);
-}
-
-.benefits-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.benefits-list-item-paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 /* SECTION-TEAM */
 
-.section-team {
-    background-color: #f4f4fd;
-    padding: 120px 0;
-}
 
 .container-people {
     padding: 32px 0;
@@ -113,14 +49,6 @@
     gap: 24px;
 }
 
-.team-svg {
-    fill: #f4f4fd;
-}
-
-.team-list {
-    display: flex;
-    gap: 24px;
-}
 
 .team-list-item-title {
     font-weight: 500;
